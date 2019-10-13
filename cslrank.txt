@@ -685,7 +685,7 @@ xx=
 
 
 
-          {
+        --[[  {
             CardView,--卡片控件
             layout_width='match_parent',--卡片宽度
             layout_height='8%h',--卡片高度
@@ -820,7 +820,7 @@ xx=
             layout_gravity='center',--重力属性
             backgroundColor='#FFBEBEBE',--分割线颜色
             style='?android:attr/borderlessButtonStyle',--分割线阴影
-          },
+          },]]
 
 
 
