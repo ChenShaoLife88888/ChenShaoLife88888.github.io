@@ -1,436 +1,175 @@
 --程序启动时会执行的事件
-gt=
+xx=
 {
-  ScrollView;
-  layout_height="fill";
-  layout_width="fill";
-  {
-    LinearLayout;
-    orientation="vertical";
-    layout_height="fill";
-    layout_width="fill";
-    {
-      TextView;
-      background="#FFDCDCDC";
-      layout_height="1dp";
-      layout_width="fill";
-    };
-    {
-      LinearLayout;
-      orientation="horizontal";
-      layout_height="fill";
-      layout_width="fill";
-      {
-        LinearLayout;
-        orientation="vertical";
-        gravity="center";
-        layout_height="fill";
-        layout_width="33%w";
-        {
-          CircleImageView;--图片控件
-          src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2200471184,4213706250&fm=26&gp=0.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="看片1";
-          onClick=function()
-            进入子页面("sg")
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='看片①区';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556815476695&di=c5ffd357b4ea384aa81b8587694924bc&imgtype=0&src=http%3A%2F%2Fpic46.nipic.com%2F20140825%2F6608733_111142505000_2.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="看片2";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='看片②区';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556815974883&di=fbc5d2795f02a7d116f2cdc3e0b35ebb&imgtype=0&src=http%3A%2F%2Fpic.pc6.com%2Fup%2F2014-2%2F2014212101220.png';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="官方平台";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='官方平台';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556816487862&di=9ed00e2381ba3be9ef8f67674c025db9&imgtype=0&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F19%2F56%2F16pic_1956640_b.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="实用工具";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='实用工具';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='100dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='敬请期待～';--显示的文字
-          textSize='15sp';--文字大小
-          id="期待1";
-          onClick=function()
-            提示("没有了哦")
-          end
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-      };
-      {
-        TextView;
-        background="#FFDCDCDC";
-        layout_height="fill";
-        layout_width="1dp";
-      };
-      {
-        LinearLayout;
-        orientation="vertical";
-        gravity="center";
-        layout_height="fill";
-        layout_width="33%w";
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556815230217&di=21b79de5cfe2c49f7976797bd61221b3&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F35%2F23%2F58119550a448c_610.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="直播盒子";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='直播盒子';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556815593194&di=92552bfae6b900d3f1b26555e1e07add&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fapp%2Ficon%2F20160329%2F1459219357881272.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="翻墙";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='翻墙Vpn';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556816198165&di=7bac1a347eec618bd92583b5cc72acb0&imgtype=0&src=http%3A%2F%2Fimg.aso.aizhan.com%2Ficon%2Fd5%2F03%2F7b%2Fd5037b208658da6683d1984fabb1af86.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="宅男小说";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='宅男小说';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3993530018,2662982103&fm=26&gp=0.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="红包外挂";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='红包外挂';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='100dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='敬请期待～';--显示的文字
-          textSize='15sp';--文字大小
-          id="期待2";
-          onClick=function()
-            提示("没有了哦")
-          end
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-      };
-      {
-        TextView;
-        background="#FFDCDCDC";
-        layout_height="fill";
-        layout_width="1dp";
-      };
-      {
-        LinearLayout;
-        orientation="vertical";
-        gravity="center";
-        layout_height="fill";
-        layout_width="33%w";
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556815292504&di=9f67c562c8b584803ffe59d9b3a8152d&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F00%2F36%2F89%2F3556d51dd9b18fd.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="网盘密码";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='网盘密码';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556815720519&di=e4044ee3cd141c13fea94ac8285ff5e1&imgtype=0&src=http%3A%2F%2Fstatic.oneplus.cn%2Fdata%2Fattachment%2Fforum%2F201712%2F03%2F135029u6odq43xq93tqwp6.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="全网影视";
-          onClick=function()
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='全网影视';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556816330140&di=402a2c7124ddf31e3117a4fb47f3ec19&imgtype=0&src=http%3A%2F%2Fandroid-artworks.25pp.com%2Ffs08%2F2016%2F12%2F28%2F4%2F110_f7f3c70560f1ed539e7d3a1d5d7b57ad_con.png';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="宅男污游";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='宅男污游';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          CircleImageView;--图片控件
-          src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557411637&di=68850b996ec1d6bdcd9ad078fd0dddfc&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F36%2F19%2F5811c7bdd756d_610.jpg';--图片路径
-          layout_width='45dp';--图片宽度
-          layout_height='45dp';--图片高度
-          layout_marginTop='20dp';--布局顶距
-          id="杂类福利";
-          onClick=function()
-
-          end
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='50dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='杂类福利';--显示的文字
-          textSize='15sp';--文字大小
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-        {
-          TextView;--文本控件
-          layout_width='fill';--文本宽度
-          layout_height='100dp';--文本高度
-          gravity='center';--重力属性
-          textColor='#FF7D7D7D';--文字颜色
-          text='敬请期待～';--显示的文字
-          textSize='15sp';--文字大小
-          id="期待3";
-          onClick=function()
-            提示("没有了哦")
-          end
-        };
-        {
-          TextView;
-          background="#FFDCDCDC";
-          layout_height="1dp";
-          layout_width="fill";
-        };
-      };
-    };
-    {
-      TextView;--文本控件
-      layout_width='fill';--文本宽度
-      layout_height='100dp';--文本高度
-      gravity='center';--重力属性
-      textColor='#FF7D7D7D';--文字颜色
-      text='Copyright @ 2018-2019\n\n网络幽灵 - 布局射妓大师 〔QQ 782268899〕';--显示的文字
-      textSize='12sp';--文字大小
-    };
-  };
+LinearLayout,
+orientation='vertical',--布局方向
+layout_width='fill',--布局宽度
+layout_height='fill',--布局高度
+background='#FFEEEEEE',--背景颜色(图片路径)
+--开始
+{
+CardView,--卡片控件
+layout_width='fill',--卡片宽度
+layout_height='fill',--卡片高度
+layout_margin='',--卡片边距
+layout_gravity='center',--重力属性
+CardBackgroundColor='#ffffff',--卡片颜色
+elevation='',--阴影属性
+radius='',--卡片圆角
+{
+ImageView,--图片控件
+layout_width='fill',--图片宽度
+layout_height='fill',--图片高度
+src='https://upload.cc/i1/2019/08/27/5ztLvu.jpg',--图片路径
+ColorFilter='',--图片着色
+scaleType='fitXY',--图片显示类型
+},
+{
+CardView,--卡片控件
+layout_width='13%w',--卡片宽度
+layout_height='6.5%h',--卡片高度
+layout_marginTop='-20%h',--卡片边距
+layout_gravity='center',--重力属性
+CardBackgroundColor='',--卡片颜色
+elevation='',--阴影属性
+layout_marginLeft='-85%w',--卡片圆角
+{
+ImageView,--天气
+layout_width='fill',--图片宽度
+layout_height='fill',--图片高度
+src='',--图片路径
+id='tq',--图片着色
+scaleType='fitXY',--图片显示类型
+},
 };
-webView.addView(loadlayout(gt))--QQ782268899
+{
+TextView,--文本控件
+layout_width='fill',--文本宽度
+layout_height='fill',--文本高度
+gravity='center',
+layout_marginLeft='-30%w';
+layout_marginTop='',--布局高度
+text='00:00',--显示的文字
+textSize='130sp',--文字大小
+textColor='#ffffff',--文字颜色
+id='asp';
+},
+{
+TextView,--文本控件
+layout_width='fill',--文本宽度
+layout_height='fill',--文本高度
+gravity='center',
+layout_marginLeft='70%w';
+layout_marginTop='2%h',--布局高度
+text='0',--显示的文字
+textSize='100sp',--文字大小
+textColor='#ffffff',--文字颜色
+id='asp2';
+},
+{
+TextView,--文本控件
+layout_width='fill',--文本宽度
+layout_height='fill',--文本高度
+gravity='center',
+layout_marginLeft='150%w';
+layout_marginTop='-40%h',--布局高度
+text=os.date("%Y %m %d "),--显示的文字,--显示的文字
+textSize='35sp',--文字大小
+id='日期';
+textColor='#ffffff',--文字颜色
+},
+};
+}
+activity.setContentView(loadlayout(xx))
+
+activity.setRequestedOrientation(0); 
+--字体加粗
+
+function mb()
+  if tonumber(os.date("%H"))>=tonumber("24") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/UTCZtA.png"))
+elseif tonumber(os.date("%H"))>=tonumber("19") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/UTCZtA.png"))
+elseif tonumber(os.date("%H"))>=tonumber("17") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/wXzCbB.png"))
+elseif tonumber(os.date("%H"))>=tonumber("14") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/d2FIJ4.png"))
+elseif tonumber(os.date("%H"))>=tonumber("12") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/d2FIJ4.png"))
+elseif tonumber(os.date("%H"))>=tonumber("10") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/KXisrP.png"))
+elseif tonumber(os.date("%H"))>=tonumber("7") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/GBX6qy.png"))
+elseif tonumber(os.date("%H"))<=tonumber("5") then
+tq.setImageBitmap(loadbitmap("https://upload.cc/i1/2019/08/28/NMWs4J.png"))
+end
+asp.setText(os.date("%H:%M"))
+asp2.setText(os.date("%S"))
+--本地时间总和
+
+end
+
+--线程函数
+function ap()
+  --调用主线程函数
+
+require "import"
+
+--Thread.sleep(1000)--延迟1000毫秒
+while( true ) do
+  
+Thread.sleep(1000)--延迟1000毫秒
+
+
+  call("mb")
+
+
+end
+
+
+
+
+
+end
+
+thread(ap)
+
+
+
+--读取字体并设置
+local file=File(activity.getLuaDir().."/time.ttf");
+local a=Typeface.createFromFile(file)
+asp.setTypeface(a);
+
+--读取字体并设置
+local file=File(activity.getLuaDir().."/time.ttf");
+local a=Typeface.createFromFile(file)
+asp2.setTypeface(a);
+
+--读取字体并设置
+local file=File(activity.getLuaDir().."/time.ttf");
+local a=Typeface.createFromFile(file)
+日期.setTypeface(a);
+
+
+
+import "android.os.Build"
+import "android.view.WindowManager"
+import "android.view.View"
+
+if Build.VERSION.SDK_INT > 11 and Build.VERSION.SDK_INT < 19  then
+v = this.getWindow().getDecorView();
+v.setSystemUiVisibility(View.GONE);
+elseif (Build.VERSION.SDK_INT >= 19) then
+decorView = activity.getWindow().getDecorView();
+uiOptions = View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_IMMERSIVE;
+decorView.setSystemUiVisibility(uiOptions);
+activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+end
+
+
+
+
+
+
+
