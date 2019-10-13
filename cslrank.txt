@@ -1,4 +1,6 @@
 【布局】
+import "android.widget.TextView"
+import "android.graphics.Typeface"
 xx=
 {
   LinearLayout,
