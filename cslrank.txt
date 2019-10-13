@@ -1,16 +1,17 @@
 【布局】xx=
+xx=
 {
   LinearLayout,
   orientation='vertical',--横向或纵向
   layout_width='fill',--布局宽度
   layout_height='fill',--布局高度
-  background='#FFEEEEEE',--背景颜色
+  --background='#FFEEEEEE',--背景颜色
   --开始
   {
     CardView,--卡片控件
     layout_width='80%w',--卡片宽度
     layout_height='50%h',--卡片高度
-    layout_marginTop='15%h',--卡片边距
+  --  layout_marginTop='15%h',--卡片边距
     layout_gravity='center',--重力属性
     CardBackgroundColor='#ffffff',--卡片颜色
     elevation='',--阴影属性
@@ -1547,7 +1548,15 @@
 
 
 }
-activity.setContentView(loadlayout(xx))
+--activity.setContentView(loadlayout(xx))
+dialog= AlertDialog.Builder(this)
+  dialog13=dialog.show()
+  dialog13.getWindow().setContentView(loadlayout(xx));
+  --dialog1.setCanceledOnTouchOutside(false)--设置点击阴影部分不会关闭公告
+  --dialog1.setCancelable(false)--设置点击返回键不会关闭公告
+  import "android.graphics.drawable.ColorDrawable"
+  dialog13.getWindow().setBackgroundDrawable(ColorDrawable(0x00000000));
+
 
 
 
