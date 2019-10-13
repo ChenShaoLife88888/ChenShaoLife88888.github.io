@@ -1,4 +1,4 @@
-【布局】xx=
+【布局】
 xx=
 {
   LinearLayout,
