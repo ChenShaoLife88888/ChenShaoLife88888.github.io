@@ -1,4 +1,4 @@
---程序启动时会执行的事件
+【布局】--程序启动时会执行的事件
 xx=
 {
 LinearLayout,
@@ -166,7 +166,7 @@ uiOptions = View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_
 decorView.setSystemUiVisibility(uiOptions);
 activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
 end
-
+【布局】
 
 
 
