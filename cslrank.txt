@@ -41,6 +41,7 @@ xx=
           text='会员';--显示的文字
           textSize='23sp';--文字大小
           id='vip',
+          Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
         };
         {
           CardView,--卡片控件
@@ -79,6 +80,7 @@ xx=
                   textSize='18sp',--文字大小
                   textColor='#ffff9a9e',--文字颜色
                   layout_marginLeft='3%w',--布局左距
+                  Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   --gravity='center',--layout_
                 },
                 {
@@ -188,6 +190,7 @@ xx=
                     text='CSL';--显示的文字
                     textSize='15sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -333,6 +336,7 @@ xx=
                     text='Ayaka_Ago';--显示的文字
                     textSize='15sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -469,6 +473,7 @@ xx=
                     text='半生素依';--显示的文字
                     textSize='16sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -503,6 +508,7 @@ xx=
                       --scaleType='fitXY';--图片显示类型
                       layout_marginLeft='6.5%w',
                       id='',
+                      Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                     };
                     {
                       ImageView;--图片控件
@@ -605,6 +611,7 @@ xx=
                     text='Visual Studio C#';--显示的文字
                     textSize='16sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -685,144 +692,7 @@ xx=
 
 
 
-        --[[  {
-            CardView,--卡片控件
-            layout_width='match_parent',--卡片宽度
-            layout_height='8%h',--卡片高度
-            layout_margin='',--卡片边距
-            layout_gravity='center',--重力属性
-            CardBackgroundColor='',--卡片颜色
-            elevation='',--阴影属性
-            radius='',--卡片圆角
-            id='',
-
-            {
-              LinearLayout,
-              orientation='horizontal',--横向或纵向
-              layout_width='fill',--布局宽度
-              layout_height='fill',--布局高度
-              {
-                CardView,--卡片控件
-                layout_width='13%w',--卡片宽度
-                layout_height='13%w',--卡片高度
-                layout_marginLeft='3%w',--卡片边距
-                layout_gravity='center',--重力属性
-                CardBackgroundColor='',--卡片颜色
-                elevation='',--阴影属性
-                radius='5dp',--卡片圆角
-                id='',
-                {
-                  ImageView;--图片控件
-                  layout_width='fill';--图片宽度
-                  layout_height='fill';--图片高度
-                  src='http://q1.qlogo.cn/g?b=qq&nk=1801468869&s=100&t=1570952352';--图片路径
-                  scaleType='fitXY';--图片显示类型
-                  id='',
-                };
-              },
-              {
-                LinearLayout,
-                orientation='vertical',--横向或纵向
-                layout_width='fill',--布局宽度
-                layout_height='fill',--布局高度
-                {
-                  CardView,--卡片控件
-                  layout_width='fill',--卡片宽度
-                  layout_height='3%h',--卡片高度
-                  layout_marginTop='1%h',--卡片边距
-                  layout_gravity='',--重力属性
-                  CardBackgroundColor='',--卡片颜色
-                  elevation='',--阴影属性
-                  radius='',--卡片圆角
-                  id='',
-                  {
-                    TextView;--文本控件
-                    layout_width='fill';--文本宽度
-                    layout_height='fill';--文本高度
-                    gravity='center';--重力属性
-                    textColor='#858585';--文字颜色
-                    text='云歌';--显示的文字
-                    textSize='16sp';--文字大小
-                    id='name1',
-                  };
-                },
-                {
-                  CardView,--卡片控件
-                  layout_width='fill',--卡片宽度
-                  layout_height='3%h',--卡片高度
-                  layout_marginTop='1%h',--卡片边距
-                  layout_gravity='',--重力属性
-                  CardBackgroundColor='',--卡片颜色
-                  elevation='',--阴影属性
-                  radius='',--卡片圆角
-                  id='',
-                  {
-                    LinearLayout,
-                    orientation='horizontal',--横向或纵向
-                    layout_width='fill',--布局宽度
-                    layout_height='fill',--布局高度
-                    {
-                      ImageView;--图片控件
-                      layout_width='6%w';--图片宽度
-                      layout_height='6%w';--图片高度
-                      src='https://ae01.alicdn.com/kf/Hc6165513e2b447f7b71e537cb8319162G.png';--图片路径
-                      --scaleType='fitXY';--图片显示类型
-                      layout_marginLeft='6.5%w',
-                      id='',
-                    };
-                    {
-                      ImageView;--图片控件
-                      layout_width='5%w';--图片宽度
-                      layout_height='5%w';--图片高度
-                      src='https://ae01.alicdn.com/kf/H4652740cce864b2386105c2743de319a3.png';--图片路径
-                      --scaleType='fitXY';--图片显示类型
-                      layout_marginLeft='6.5%w',
-                      id='',
-                    };
-                    {
-                      ImageView;--图片控件
-                      layout_width='5%w';--图片宽度
-                      layout_height='5%w';--图片高度
-                      src='https://ae01.alicdn.com/kf/Ha0f975c4f80247d48ff42ad76aacd154U.png';--图片路径
-                      --scaleType='fitXY';--图片显示类型
-                      layout_marginLeft='6.5%w',
-                      id='',
-                    };
-                    {
-                      ImageView;--图片控件
-                      layout_width='5%w';--图片宽度
-                      layout_height='5%w';--图片高度
-                      src='https://ae01.alicdn.com/kf/H77d5c07e92a74f1b9e9d63435aaee017c.png';--图片路径
-                      --scaleType='fitXY';--图片显示类型
-                      layout_marginLeft='6.5%w',
-                      id='',
-                    };
-                    {
-                      ImageView;--图片控件
-                      layout_width='5%w';--图片宽度
-                      layout_height='5%w';--图片高度
-                      src='https://ae01.alicdn.com/kf/H04248089e69544c2b1323b62a98d589by.png';--图片路径
-                      --scaleType='fitXY';--图片显示类型
-                      layout_marginLeft='6.5%w',
-                      id='',
-                    };
-                  }
-                },
-              },--
-            },
-          },
-
-
-          {
-            Button,
-            layout_width='75%w',--分割线宽度
-            layout_height='1px',--分割线高度
-            layout_gravity='center',--重力属性
-            backgroundColor='#FFBEBEBE',--分割线颜色
-            style='?android:attr/borderlessButtonStyle',--分割线阴影
-          },]]
-
-
+    
 
           {
             CardView,--卡片控件
@@ -883,6 +753,7 @@ xx=
                     text='Late autumn';--显示的文字
                     textSize='16sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -1022,6 +893,7 @@ xx=
                     text='百里·乘风';--显示的文字
                     textSize='16sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -1157,6 +1029,7 @@ xx=
                     text='451 Unavailable For Legal Reasons';--显示的文字
                     textSize='16sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -1296,6 +1169,7 @@ xx=
                     text='╰╮墜あ顭╭╯';--显示的文字
                     textSize='16sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
@@ -1434,6 +1308,7 @@ xx=
                     text='Hi World:)';--显示的文字
                     textSize='16sp';--文字大小
                     id='name1',
+                    Typeface=Typeface.createFromFile(File(activity.getLuaDir().."/res/medium.ttf"));
                   };
                 },
                 {
