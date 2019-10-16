@@ -1380,7 +1380,7 @@ xx=
 
 {
 Button,
-layout_width='100%w',--分割线宽度
+layout_width='75%w',--分割线宽度
 layout_height='1px',--分割线高度
 layout_gravity='center',--重力属性
 backgroundColor='#FFBEBEBE',--分割线颜色
