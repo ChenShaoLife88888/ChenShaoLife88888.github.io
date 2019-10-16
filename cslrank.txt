@@ -1379,6 +1379,16 @@ xx=
           },
 
 {
+Button,
+layout_width='100%w',--分割线宽度
+layout_height='1px',--分割线高度
+layout_gravity='center',--重力属性
+backgroundColor='#FFBEBEBE',--分割线颜色
+style='?android:attr/borderlessButtonStyle',--分割线阴影
+},
+
+
+{
             CardView,--卡片控件
             layout_width='match_parent',--卡片宽度
             layout_height='8%h',--卡片高度
